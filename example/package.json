@@ -1,0 +1,14 @@
+{
+   "name": "aware-example",
+   "version": "0.0.1",
+   "description": "A small implementation of Rx Streams.",
+   "devDependencies": {
+      "ts-loader": "^5.4.5",
+      "typescript": "^3.4.5",
+      "webpack": "^4.30.0",
+      "webpack-cli": "^3.3.1"
+   },
+   "scripts": {
+      "tsc": "./node_modules/typescript/bin/tsc ./lib/* --outDir ./build"
+   }
+}

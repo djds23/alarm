@@ -1,0 +1,11 @@
+{
+   "name": "aware",
+   "version": "0.0.1",
+   "description": "A small implementation of Rx Streams.",
+   "devDependencies": {
+      "typescript": "3.4.5"
+   },
+   "scripts": {
+      "tsc": "./node_modules/typescript/bin/tsc ./lib/* --outDir ./build"
+   }
+}
